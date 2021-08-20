@@ -1,5 +1,5 @@
 import './App.css';
-import LoginRegister from './components/LoginRegister/LoginRegister';
+import LoginRegister from './pages/LoginRegister/LoginRegister';
 import React from "react";
 
 function App() {

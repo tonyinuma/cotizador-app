@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import '../../assets/css/style.css'
 import LoginImagen from '../../assets/images/log.svg';
 import RegisterImagen from '../../assets/images/register.svg';
-import LoginForm from "./login/LoginForm";
-import RegisterForm from "./register/RegisterForm";
+import LoginForm from "../../components/login/LoginForm";
+import RegisterForm from "../../components/register/RegisterForm";
 
 const LoginRegister = () => {
 
