@@ -8,15 +8,15 @@ import RegisterForm from "../../components/register/RegisterForm";
 const LoginRegister = () => {
 
     const [view, setView] = useState('login');
-    const [classChange, setClasssChange] = useState('container');
+    const [classChange, setClasssChange] = useState('container-circle');
 
     function changeViewRegistro() {
         if (view === 'login') {
             setView('register');
-            setClasssChange('container sign-up-mode')
+            setClasssChange('container-circle sign-up-mode')
         } else {
             setView('login');
-            setClasssChange('container')
+            setClasssChange('container-circle')
         }
     }
 
