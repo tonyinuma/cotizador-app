@@ -25,7 +25,7 @@ const Services = () => {
                                             <img src={ServiceOne} alt="reporting"/>
                                         </div>
                                         <div className="right-text">
-                                            <h4>Data Analysis</h4>
+                                            <h4>Courier</h4>
                                             <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
                                         </div>
                                     </div>
@@ -36,7 +36,7 @@ const Services = () => {
                                             <img src={ServiceTwo} alt=""/>
                                         </div>
                                         <div className="right-text">
-                                            <h4>Data Reporting</h4>
+                                            <h4>Ecommerce</h4>
                                             <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@ const Services = () => {
                                             <img src={ServiceThree} alt=""/>
                                         </div>
                                         <div className="right-text">
-                                            <h4>Web Analytics</h4>
+                                            <h4>Tracking</h4>
                                             <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@ const Services = () => {
                                             <img src={ServiceFour} alt=""/>
                                         </div>
                                         <div className="right-text">
-                                            <h4>SEO Suggestions</h4>
+                                            <h4>Multi Platform</h4>
                                             <p>Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
                                         </div>
                                     </div>

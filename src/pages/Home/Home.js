@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../../assets/css/animated.css'
 import '../../assets/css/fontawesome.css'
 import '../../assets/css/templatemo-space-dynamic.css'

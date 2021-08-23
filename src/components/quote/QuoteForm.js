@@ -2,38 +2,52 @@ import React from 'react';
 
 const QuoteForm = () => {
     return (
-        <div className="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-            <form  action="#" method="post">
+        <div className="col-lg-8 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+            <form action="#" method="post">
                 <div className="row">
-                    <div className="col-lg-6">
-                        <fieldset>
-                            <input type="name" name="name" id="name" placeholder="Name" autoComplete="on"
-                                   required/>
-                        </fieldset>
+                    <p>¿A donde quieres Envíar?</p>
+                    <div className="col-lg-4">
+                        <select name="distrito" id="distrito" className="form-control">
+                            <option value="1">-- Seleccionar --</option>
+                            <option value="1">ABC</option>
+                            <option value="1">ABC</option>
+                        </select>
                     </div>
-                    <div className="col-lg-6">
-                        <fieldset>
-                            <input type="surname" name="surname" id="surname" placeholder="Surname"
-                                   autoComplete="on" required/>
-                        </fieldset>
+                    <div className="col-lg-4">
+                        <select name="distrito" id="distrito" className="form-control">
+                            <option value="1">-- Seleccionar --</option>
+                            <option value="1">ABC</option>
+                            <option value="1">ABC</option>
+                        </select>
                     </div>
-                    <div className="col-lg-12">
-                        <fieldset>
-                            <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                   placeholder="Your Email" required=""/>
-                        </fieldset>
+                    <div className="col-lg-4 mb-2">
+                        <select name="distrito" id="distrito" className="form-control">
+                            <option value="1">-- Seleccionar --</option>
+                            <option value="1">ABC</option>
+                            <option value="1">ABC</option>
+                        </select>
                     </div>
-                    <div className="col-lg-12">
-                        <fieldset>
-                                        <textarea name="message" type="text" className="form-control" id="message"
-                                                  placeholder="Message" required=""></textarea>
-                        </fieldset>
+                    <div className="col-lg-12 mb-2">
+                        <input type="text" className="form-control" name="email" id="email" pattern="[^ @]*@[^ @]*"
+                               placeholder="Your Address" required=""/>
                     </div>
-                    <div className="col-lg-12">
-                        <fieldset>
-                            <button type="submit" id="form-submit" className="main-button ">Send Message
-                            </button>
-                        </fieldset>
+                    <p>2. ¿Que quieres Envíar?</p>
+                    <div className="col-lg-8 mb-2 d-flex">
+                        <button type="submit" id="form-submit" className="btn btn-close-white form-control">
+                            <i className="fa fa-plus"></i>Paquete
+                        </button>s
+                        <button type="submit" id="form-submit" className="btn btn-close-white form-control">
+                            <i className="fa fa-plus mr2"></i>Sobre
+                        </button>
+                    </div>
+                    <div className="col-lg-12 mb-2">
+                        <input type="text" className="form-control" name="email" id="email" pattern="[^ @]*@[^ @]*"
+                               placeholder="Your Address" required=""/>
+                    </div>
+                    <div className="col-lg-12 mb-2">
+                        <button type="button" id="form-submit" className="main-button form-control">
+                            Quote
+                        </button>
                     </div>
                 </div>
             </form>

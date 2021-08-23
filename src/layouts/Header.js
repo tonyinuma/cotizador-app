@@ -7,18 +7,13 @@ const Header = () => {
                     <div className="row">
                         <div className="col-12">
                             <nav className="main-nav">
-                                <a href="#" className="logo">
-                                    <h4><span>AFE</span></h4>
+                                <a href="/" className="logo">
+                                    <h4><span>AF</span></h4>
                                 </a>
                                 <ul className="nav">
-                                    <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
-                                    <li className="scroll-to-section"><a href="#about">About Us</a></li>
-                                    <li className="scroll-to-section"><a href="#services">Services</a></li>
-                                    <li className="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
-                                    <li className="scroll-to-section"><a href="#blog">Blog</a></li>
-                                    <li className="scroll-to-section"><a href="#contact">Message Us</a></li>
+                                    <li className="scroll-to-section"><a href="#about">Services</a></li>
                                     <li className="scroll-to-section">
-                                        <div className="main-red-button"><a href="#contact">Contact Now</a></div>
+                                        <div className="main-red-button"><a href="/login">Sign In</a></div>
                                     </li>
                                 </ul>
                                 <a className='menu-trigger'>
