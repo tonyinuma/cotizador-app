@@ -35,7 +35,7 @@ const QuoteForm = () => {
                     <div className="col-lg-8 mb-2 d-flex">
                         <button type="submit" id="form-submit" className="btn btn-close-white form-control">
                             <i className="fa fa-plus"></i>Paquete
-                        </button>s
+                        </button>
                         <button type="submit" id="form-submit" className="btn btn-close-white form-control">
                             <i className="fa fa-plus mr2"></i>Sobre
                         </button>
